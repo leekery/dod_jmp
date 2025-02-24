@@ -14,7 +14,7 @@ function createWindow() {
     });
 
     win.loadFile('index.html');
-    // win.webContents.openDevTools(); // Раскомментируйте для отладки
+    // win.webContents.openDevTools(); // Отладка
 }
 
 app.whenReady().then(() => {

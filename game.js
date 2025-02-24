@@ -1,4 +1,3 @@
-// game.js
 document.addEventListener('DOMContentLoaded', () => {
     // Получаем элементы DOM
     const canvas = document.getElementById('gameCanvas');
@@ -19,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const GRAVITY = 0.1;
     const JUMP_FORCE = -8;
     const PLATFORM_COUNT = 7;
-    const PLAYER_SPEED = 3; // Уменьшено с 5 до 3 для менее чувствительного управления
+    const PLAYER_SPEED = 3; 
 
     // Состояние игры
     let gameRunning = false;
