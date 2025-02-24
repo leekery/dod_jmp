@@ -16,9 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const PLATFORM_WIDTH = 60;
     const PLATFORM_HEIGHT = 15;
     const GRAVITY = 0.1;
-    const JUMP_FORCE = -8;
+    const JUMP_FORCE = -7;
     const PLATFORM_COUNT = 7;
-    const PLAYER_SPEED = 3; 
+    const PLAYER_SPEED = 2.5; 
 
     // Состояние игры
     let gameRunning = false;
