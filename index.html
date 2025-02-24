@@ -1,5 +1,29 @@
-<html>
-    <body>
-        <h1>Welcome to dod_jmp</h1>
-    </body>
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doodle Jump</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-stats">
+            <div class="score">Счёт: <span id="score">0</span></div>
+            <div class="high-score">Рекорд: <span id="highScore">0</span></div>
+        </div>
+        <canvas id="gameCanvas" width="320" height="480"></canvas>
+        <div class="game-menu" id="gameMenu">
+            <h1>Doodle Jump</h1>
+            <button id="startButton">Начать игру</button>
+        </div>
+        <div class="game-over" id="gameOver">
+            <h2>Игра окончена</h2>
+            <div class="final-score">Счёт: <span id="finalScore">0</span></div>
+            <button id="restartButton">Играть снова</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
 </html>
